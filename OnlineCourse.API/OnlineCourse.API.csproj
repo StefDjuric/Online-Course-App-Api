@@ -18,7 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OnlineCourse.Core\OnlineCourse.Core.csproj" />
     <ProjectReference Include="..\OnlineCourse.Data\OnlineCourse.Data.csproj" />
+    <ProjectReference Include="..\OnlineCourse.Service\OnlineCourse.Service.csproj" />
   </ItemGroup>
 
 </Project>

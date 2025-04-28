@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using OnlineCourse.Core.Entities;
 
-namespace OnlineCourse.Data.Entities;
+namespace OnlineCourse.Data;
 
 public partial class OnlineCourseDbContext : DbContext
 {
