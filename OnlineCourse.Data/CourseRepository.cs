@@ -30,6 +30,7 @@ namespace OnlineCourse.Data
                 InstructorId = s.InstructorId,
                 StartDate = s.StartDate,
                 EndDate = s.EndDate,
+                Thumbnail = s.Thumbnail,
                 Category = new CourseCategoryModel()
                 {
                     Id = s.Category.Id,
@@ -69,6 +70,7 @@ namespace OnlineCourse.Data
                     InstructorId = c.InstructorId,
                     StartDate = c.StartDate,
                     EndDate = c.EndDate,
+                    Thumbnail = c.Thumbnail,
                     Category = new CourseCategoryModel()
                     {
                         Id = c.Category.Id,

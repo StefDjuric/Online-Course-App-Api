@@ -19,7 +19,7 @@ namespace OnlineCourse.API.Controllers
             return Ok(courses);
         }
 
-        // Get api/Course/Category?categoryId=""
+        // Get api/Course/Category/categoryId
         [HttpGet("Category/{categoryId}")]
         public async Task<ActionResult<List<CourseModel>>> GetAllCoursesAsync([FromRoute] int categoryId)
         {
@@ -27,7 +27,7 @@ namespace OnlineCourse.API.Controllers
             return Ok(courses);
         }
 
-        // Get api/Course/Detail?courseId=""
+        // Get api/Course/Detail/courseId
         [HttpGet("Detail/{courseId}")]
         public async Task<ActionResult<CourseDetailModel>> GetCourseDetailsAsync([FromRoute] int courseId)
         {

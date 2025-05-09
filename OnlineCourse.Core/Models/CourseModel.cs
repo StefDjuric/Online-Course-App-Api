@@ -69,6 +69,8 @@ namespace OnlineCourse.Core.Models
         public DateTime? StartDate { get; set; }
 
         public DateTime? EndDate { get; set; }
+        
+        public string? Thumbnail { get; set; }
 
         public CourseCategoryModel Category { get; set; } = null!;
 

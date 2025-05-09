@@ -45,6 +45,10 @@ public partial class Course
     [Column("endDate", TypeName = "datetime")]
     public DateTime? EndDate { get; set; }
 
+    [Column("thumbnail")]
+    [StringLength(300)]
+    public string? Thumbnail { get; set; }
+
     [ForeignKey("CategoryId")]
     [InverseProperty("Courses")]
     public virtual CourseCategory Category { get; set; } = null!;
